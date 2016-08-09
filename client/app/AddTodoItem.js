@@ -1,6 +1,5 @@
 import {Component, PropTypes} from 'react';
 import {IconButton, ListItem, TextField} from 'material-ui';
-import _ from 'lodash';
 
 class AddTodoItem extends Component {
 

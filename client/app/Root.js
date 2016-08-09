@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom';
-import { Provider, connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+import { Provider } from 'react-redux';
 
 import TodoApp from './TodoApp';
 

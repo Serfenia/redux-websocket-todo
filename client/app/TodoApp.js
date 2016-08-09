@@ -1,6 +1,4 @@
 import { Component, PropTypes } from 'react';
-import mui from 'material-ui';
-import _ from 'lodash';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';

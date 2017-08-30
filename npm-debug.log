@@ -1,37 +1,49 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'lint' ]
-2 info using npm@2.11.3
-3 info using node@v4.1.1
-4 verbose run-script [ 'prelint', 'lint', 'postlint' ]
-5 info prelint redux-websocket-todo@1.0.0
-6 info lint redux-websocket-todo@1.0.0
-7 verbose unsafe-perm in lifecycle true
-8 info redux-websocket-todo@1.0.0 Failed to exec lint script
-9 verbose stack Error: redux-websocket-todo@1.0.0 lint: `$(npm bin)/eslint .`
-9 verbose stack Exit status 1
-9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at EventEmitter.emit (events.js:172:7)
-9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at ChildProcess.emit (events.js:172:7)
-9 verbose stack     at maybeClose (internal/child_process.js:817:16)
-9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-10 verbose pkgid redux-websocket-todo@1.0.0
-11 verbose cwd /Users/patrickvanvuuren/Developer/Personal/React/ReduxWebsockets
-12 error Darwin 15.5.0
-13 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "lint"
-14 error node v4.1.1
-15 error npm  v2.11.3
-16 error code ELIFECYCLE
-17 error redux-websocket-todo@1.0.0 lint: `$(npm bin)/eslint .`
-17 error Exit status 1
-18 error Failed at the redux-websocket-todo@1.0.0 lint script '$(npm bin)/eslint .'.
-18 error This is most likely a problem with the redux-websocket-todo package,
-18 error not with npm itself.
-18 error Tell the author that this fails on your system:
-18 error     $(npm bin)/eslint .
-18 error You can get their info via:
-18 error     npm owner ls redux-websocket-todo
-18 error There is likely additional logging output above.
-19 verbose exit [ 1, true ]
+1 verbose cli [ '/Users/patrickvanvuuren/.nvm/versions/node/v6.9.2/bin/node',
+1 verbose cli   '/Users/patrickvanvuuren/.nvm/versions/node/v6.9.2/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'serve:dev' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 verbose run-script [ 'preserve:dev', 'serve:dev', 'postserve:dev' ]
+5 info lifecycle redux-websocket-todo@1.0.0~preserve:dev: redux-websocket-todo@1.0.0
+6 silly lifecycle redux-websocket-todo@1.0.0~preserve:dev: no script for preserve:dev, continuing
+7 info lifecycle redux-websocket-todo@1.0.0~serve:dev: redux-websocket-todo@1.0.0
+8 verbose lifecycle redux-websocket-todo@1.0.0~serve:dev: unsafe-perm in lifecycle true
+9 verbose lifecycle redux-websocket-todo@1.0.0~serve:dev: PATH: /Users/patrickvanvuuren/.nvm/versions/node/v6.9.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/patrickvanvuuren/Developer/Personal/redux-websocket-todo/node_modules/.bin:/Users/patrickvanvuuren/.nvm/versions/node/v6.9.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/ec2/ec2-api-tools-1.7.5.1//bin
+10 verbose lifecycle redux-websocket-todo@1.0.0~serve:dev: CWD: /Users/patrickvanvuuren/Developer/Personal/redux-websocket-todo
+11 silly lifecycle redux-websocket-todo@1.0.0~serve:dev: Args: [ '-c',
+11 silly lifecycle   'NODE_ENV=development && webpack-dev-server --hot --inline --progress --colors --port 8080 --content-base ./build' ]
+12 silly lifecycle redux-websocket-todo@1.0.0~serve:dev: Returned: code: 1  signal: null
+13 info lifecycle redux-websocket-todo@1.0.0~serve:dev: Failed to exec serve:dev script
+14 verbose stack Error: redux-websocket-todo@1.0.0 serve:dev: `NODE_ENV=development && webpack-dev-server --hot --inline --progress --colors --port 8080 --content-base ./build`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/patrickvanvuuren/.nvm/versions/node/v6.9.2/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/patrickvanvuuren/.nvm/versions/node/v6.9.2/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid redux-websocket-todo@1.0.0
+16 verbose cwd /Users/patrickvanvuuren/Developer/Personal/redux-websocket-todo
+17 error Darwin 16.7.0
+18 error argv "/Users/patrickvanvuuren/.nvm/versions/node/v6.9.2/bin/node" "/Users/patrickvanvuuren/.nvm/versions/node/v6.9.2/bin/npm" "run" "serve:dev"
+19 error node v6.9.2
+20 error npm  v3.10.9
+21 error code ELIFECYCLE
+22 error redux-websocket-todo@1.0.0 serve:dev: `NODE_ENV=development && webpack-dev-server --hot --inline --progress --colors --port 8080 --content-base ./build`
+22 error Exit status 1
+23 error Failed at the redux-websocket-todo@1.0.0 serve:dev script 'NODE_ENV=development && webpack-dev-server --hot --inline --progress --colors --port 8080 --content-base ./build'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the redux-websocket-todo package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     NODE_ENV=development && webpack-dev-server --hot --inline --progress --colors --port 8080 --content-base ./build
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs redux-websocket-todo
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls redux-websocket-todo
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

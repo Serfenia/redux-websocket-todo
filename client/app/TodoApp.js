@@ -5,7 +5,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import {searchTodos, saveTodo, deleteTodo} from './../actions/todos';
+import {searchTodos, saveTodo, deleteTodo} from './../commands/todos';
 
 import TodoFilters from './TodoFilters';
 import TodoList from './TodoList';
